@@ -6,6 +6,9 @@ import './LateralEsquerda.css'
 // var nomeDaVariavel = require('caminho/para/imagem.jpg')
 import instagram from '../assets/logo-pequeno.jpg'
 
+//Importação de Ícones
+import { RiHomeHeartFill } from "react-icons/ri";
+
 var x = 10
 var y = 20
 
@@ -14,11 +17,11 @@ export default function LateralEsquerda() {
         <div className='LateralEsquerda'>
             <img src={instagram} alt='Logo do Instagram' className='logoInstagram' />
             <ul>
-                
-                <ListItem text="Home" />
-                <ListItem  text="Search" />
-                <ListItem  text="Explore" />
-                <ListItem  text="Reels" />
+
+                <ListItem icone={<RiHomeHeartFill />} texto="Home" />
+                <ListItem icone="Icone" texto="Search" />
+                <ListItem icone="Icone" texto="Explore" />
+                <ListItem icone="Icone" texto="Reels" />
 
             </ul>
         </div>

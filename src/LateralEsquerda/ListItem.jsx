@@ -1,3 +1,5 @@
 export default function ListItem(props) {
-    return <li>Icone {props.text}</li>
+    return (
+        <li>{props.icone} {props.texto}</li>
+    )
 }
