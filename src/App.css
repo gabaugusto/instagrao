@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.LateralEsquerda {
+  background-color: aqua;
+  width: 20vw;
+}
+
+
+.Principal {
+  background-color: rgb(21, 163, 16);
+  width: 50vw;
+}
+
+.LateralDireita {
+  background-color: rgb(184, 104, 0);
+  width: 30vw;
+}
