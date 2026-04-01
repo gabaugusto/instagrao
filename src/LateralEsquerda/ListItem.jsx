@@ -1,5 +1,5 @@
 export default function ListItem(props) {
     return (
-        <li>{props.icone} {props.texto}</li>
+        <li>{props.icone} <span className="menu">{props.texto}</span></li>
     )
 }

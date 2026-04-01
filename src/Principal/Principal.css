@@ -1,0 +1,39 @@
+.Post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.Post .post_header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+.Post .post_header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Post .post_image img {
+    width: 60%;
+    display: block;
+}
+
+.Post .post_footer {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+.Post .post_footer button {
+    background-color: transparent;
+    border: none;
+    color: #3897f0;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+}

@@ -8,6 +8,7 @@ import instagram from '../assets/logo-pequeno.jpg'
 
 //Importação de Ícones
 import { RiHomeHeartFill } from "react-icons/ri";
+import { HiShoppingCart, HiShieldCheck } from "react-icons/hi";
 
 var x = 10
 var y = 20
@@ -18,11 +19,10 @@ export default function LateralEsquerda() {
             <img src={instagram} alt='Logo do Instagram' className='logoInstagram' />
             <ul>
 
-                <ListItem icone={<RiHomeHeartFill />} texto="Home" />
-                <ListItem icone="Icone" texto="Search" />
-                <ListItem icone="Icone" texto="Explore" />
-                <ListItem icone="Icone" texto="Reels" />
-
+                <ListItem icone={<RiHomeHeartFill size={40}  color="#336699" />} texto="Home" />
+                <ListItem icone={<HiShoppingCart size={40}  color="#336699" />} texto="Search" />
+                <ListItem icone={<HiShieldCheck size={40}  color="#336699" />} texto="Explore" />
+                <ListItem icone={<RiHomeHeartFill size={40}  color="#336699" />} texto="Reels" />
             </ul>
         </div>
     )
